@@ -38,6 +38,8 @@ public class Assignment1 {
         }
         System.out.print("\nThe non-integer inputs: ");
         for (String curr : starr) {
+            if(curr.equalsIgnoreCase("no"))
+                break;
             System.out.print(curr+", ");
         }
     }
