@@ -1,4 +1,4 @@
-public class Program {
+public class Program1{
     public static void main(String[] args) {
         Person[] people = {
                 new Student("Shyam", "Bangalore, Karnataka", "Java fundamentals", 2010, 4500.0),
